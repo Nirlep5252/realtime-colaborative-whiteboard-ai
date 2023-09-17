@@ -1,6 +1,8 @@
 ## Project: Realtime Collaborative Whiteboard with AI predictions
 
-### Preview:
+### Previews:
+
+![image](https://github.com/Nirlep5252/realtime-colaborative-whiteboard-ai/assets/70529587/15898a97-e874-49ea-b5eb-faa53c2f8800)
 
 https://github.com/Nirlep5252/realtime-colaborative-whiteboard-ai/assets/70529587/b37c6c18-db52-41bf-9310-5bec9a9b679c
 
