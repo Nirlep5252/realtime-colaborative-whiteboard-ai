@@ -8,6 +8,9 @@ https://github.com/Nirlep5252/realtime-colaborative-whiteboard-ai/assets/7052958
 
 ### Steps to host locally:
 
+0. Requirements:
+- [Bun](https://bun.sh/)
+
 1. Setup `.env` file:
 ```env
 GITHUB_APP_CLIENT_ID=""
@@ -27,25 +30,25 @@ POSTGRES_URL=""
 3. Install dependencies:
 
 ```bash
-npm i
+bun i
 ```
 
 4. Configure prisma:
 
 ```bash
-npx prisma generate
-npx prisma db push
+bunx prisma generate
+bunx prisma db push
 ```
 
 5. Run the websocket server:
 
 ```bash
 mkdir -p persistense-whiteboard-data
-HOST=localhost PORT=1234 YPERSISTENSE=./persistense-whiteboard-data npx y-websocket
+HOST=localhost PORT=1234 YPERSISTENSE=./persistense-whiteboard-data bunx y-websocket
 ```
 
 6. Run the NextJS app:
 
 ```bash
-npm run dev
+bun run dev
 ```
