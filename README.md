@@ -2,7 +2,7 @@
 
 ### Preview:
 
-- todo
+https://github.com/Nirlep5252/realtime-colaborative-whiteboard-ai/assets/70529587/b37c6c18-db52-41bf-9310-5bec9a9b679c
 
 ### Steps to host locally:
 
