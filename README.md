@@ -24,17 +24,17 @@ POSTGRES_URL=""
 - Google: `http://localhost:3000/api/auth/callback/google`
 - Github: `http://localhost:3000/api/auth/callback/github`
 
-3. Configure prisma:
+3. Install dependencies:
+
+```bash
+npm i
+```
+
+4. Configure prisma:
 
 ```bash
 npx prisma generate
 npx prisma db push
-```
-
-4. Install dependencies:
-
-```bash
-npm i
 ```
 
 5. Run the websocket server:
