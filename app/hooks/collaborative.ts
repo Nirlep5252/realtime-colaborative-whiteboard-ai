@@ -7,7 +7,7 @@ import { useCallback, useEffect, useRef } from "react";
 export function useCollaborative(id: string) {
   const doc = new Y.Doc();
   const provider = new WebsocketProvider(
-    process.env.WEBSOCKET_URL,
+    process.env.WEBSOCKET_URL || "ws://localhost:1234",
     id,
     doc,
     {
